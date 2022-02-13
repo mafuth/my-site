@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+    overflow: hidden;
+}
+.parallax-home {
+    /* The image used */
+    background-image: url("/assets/img/bg-home.gif");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-about {
+    /* The image used */
+    background-image: url("/assets/img/bg-about.gif");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-works {
+    /* The image used */
+    background-image: url("/assets/img/bg-works.gif");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-contact {
+    /* The image used */
+    background-image: url("/assets/img/bg-contact.gif");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-black{
+    background-color: black;
+}
+.hidden{
+    display: none;
+}
+.home-me{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.vh-25{
+    margin-top: 25vh;
+}
+.card{
+    background: rgba(36, 36, 36, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+}
+.img-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.home h1{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+    font-weight: bold;
+}
+.home h4{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+}
+.home button{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+}
+.home button:hover{
+    background: rgba(36, 36, 36, 0.45);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    color: aliceblue !important;
+}
+.about h1{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+    font-weight: bold;
+}
+.about h4{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+}
+.about p{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+}
+.about button{
+    font-family: 'VT323', monospace;
+    color: aliceblue;
+}
+.about button:hover{
+    background: rgba(36, 36, 36, 0.45);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    color: aliceblue !important;
+}

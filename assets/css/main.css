@@ -111,3 +111,12 @@ body {
     font-family: 'VT323', monospace;
     color: aliceblue;
 }
+.socials a{
+    font-size: larger;
+}
+.socials a{
+    color: aliceblue;
+}
+.ml-49{
+    margin-left: 49px!important;
+}

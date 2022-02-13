@@ -6,20 +6,12 @@ $('.home-works').click(function(){
     $('.parallax-home').fadeOut(500);
     $('.parallax-works').fadeIn(1500);
 });
-$('.home-contact').click(function(){
-    $('.parallax-home').fadeOut(500);
-    $('.parallax-contact').fadeIn(1500);
-});
 
 $('.about-next').click(function(){
     $('.parallax-about').fadeOut(500);
-    $('.parallax-works').fadeIn(1500);
+    $('.parallax-home').fadeIn(1500);
 });
 $('.works-next').click(function(){
     $('.parallax-works').fadeOut(500);
-    $('.parallax-contact').fadeIn(1500);
-});
-$('.contact-next').click(function(){
-    $('.parallax-contact').fadeOut(500);
     $('.parallax-home').fadeIn(1500);
 });

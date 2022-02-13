@@ -2,7 +2,7 @@
 body {
     overflow: hidden;
     /* The image used */
-    background-image: url("/assets/img/body.gif");
+    background-image: url("assets/img/body.gif");
   
     /* Set a specific height */
     min-height: 100vh;
@@ -15,7 +15,7 @@ body {
 }
 .parallax-home {
     /* The image used */
-    background-image: url("/assets/img/bg-home.gif");
+    background-image: url("assets/img/bg-home.gif");
   
     /* Set a specific height */
     min-height: 100vh;
@@ -28,7 +28,7 @@ body {
 }
 .parallax-about {
     /* The image used */
-    background-image: url("/assets/img/bg-about.gif");
+    background-image: url("assets/img/bg-about.gif");
   
     /* Set a specific height */
     min-height: 100vh;
@@ -41,7 +41,7 @@ body {
 }
 .parallax-works {
     /* The image used */
-    background-image: url("/assets/img/bg-works.gif");
+    background-image: url("assets/img/bg-works.gif");
   
     /* Set a specific height */
     min-height: 100vh;

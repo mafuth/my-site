@@ -15,40 +15,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-.parallax-home {
-    /* The image used */
+.bg-home {
     background-image: url("assets/img/bg-home.gif");
-  
-    /* Set a specific height */
     min-height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-about {
-    /* The image used */
-    background-image: url("assets/img/bg-about.gif");
-  
-    /* Set a specific height */
-    min-height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-works {
-    /* The image used */
-    background-image: url("assets/img/bg-works.gif");
-  
-    /* Set a specific height */
-    min-height: 100vh;
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,18 +36,11 @@
     border-radius: 50%;
 }
 .vh-25{
-    margin-top: 15vh;
-}
-.vh-20{
-    margin-top: 10vh;
-}
-.vh-15{
-    margin-top: 5vh;
+    margin-top: 22vh;
 }
 .card{
-    background: rgba(36, 36, 36, 0.45);
+    background: rgba(36, 36, 36, 0.80);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.7px);
     -webkit-backdrop-filter: blur(4.7px);
 }
@@ -122,17 +84,11 @@
 .ml-49{
     margin-left: 49px!important;
 }
-.about-me-img{
-    width:150px;
-    height:150px;
-    object-fit: cover;
-    border-radius: 50%;
-}
     </style>
   </head>
   <body class="bg-dark">
 
-    <div class="container-fluid parallax-home home">
+    <div class="container-fluid bg-home">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 vh-25">
@@ -149,66 +105,6 @@
                                         <a href="https://github.com/mafuth"><i class="fa-brands fa-github"></i></a>
                                         <a href="https://www.instagram.com/m.a.f.u.t.h/"><i class="fa-brands fa-instagram ml-49"></i></a>
                                     </div>
-                                    <button class="btn home-next mb-3 glassy"> About Me</button>
-                                    <button class="btn home-works mb-3 glassy"> Works</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid parallax-about about hidden">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 vh-20">
-                    <div class="card">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <img class="about-me-img mt-3 mb-3" src="assets/img/about-me.gif" alt="player" load="lazy"/>
-                                </div>
-                                <div class="col-md-12">
-                                    <h1 class="text-center"><u>About ME !</u>
-                                    <h4>* I am from Maldives.</h4>
-                                    <h4>* Done my GCE O level from Baa Hithaadhoo School.</h4>
-                                    <h4>* Studied AAT at MNU.</h4>
-                                    <h4>* Studied studies IT-C4 at Cyryx college.</h4>
-                                    <h4>* Studied Wordpress and PHP on my own time.</h4>
-                                    <div class="text-center">
-                                        <button class="btn about-next mt-3 mb-3 glassy"> Back To Home</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid parallax-works works hidden">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 vh-15">
-                    <div class="card">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <img class="about-me-img mt-3 mb-3" src="assets/img/works.gif" alt="player" load="lazy"/>
-                                </div>
-                                <div class="col-md-12">
-                                    <h1 class="text-center"><u>MY WORKS !</u>
-                                    <a href="https://celltech.mv/" target="_blank"><h4>CellTech mv</h4></a>
-                                    <a href="https://searchpromv.000webhostapp.com/" target="_blank"><h4>Search Pro</h4></a>
-                                    <a href="https://maldivotraveller.com/" target="_blank"><h4>Maldivo Traveller</h4></a>
-                                    <a href="https://github.com/mafuth/php-CLI" target="_blank"><h4>PHP CLI</h4></a>
-                                    <a href="https://github.com/mafuth/onesignal-sdk" target="_blank"><h4>PHP Onesignal SDK</h4></a>
-                                    <a href="https://github.com/mafuth/PHP-webauth" target="_blank"><h4>PHP Bio Metric Authentication</h4></a>
-                                    <a href="https://mvflix.stream/" target="_blank"><h4>MV Flix</h4></a>
-                                    <div class="text-center">
-                                        <button class="btn works-next mt-3 mb-3 glassy"> Back To Home</button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -222,6 +118,5 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="assets/js/main.js" crossorigin="anonymous"></script>
   </body>
 </html>

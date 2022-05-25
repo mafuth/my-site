@@ -22,10 +22,14 @@ body{
 }
 .card h1{
     font-family: 'Pacifico', cursive !important;
+    font-size: 50px;
 }
 .rounded{
     border-radius: 0.5rem;
 }
-.page-center{
-    margin-top: 20vh;
+.ml-13{
+    margin-left: 13px;
+}
+.socials{
+    font-size: 40px;
 }

@@ -33,3 +33,13 @@ body{
 .socials{
     font-size: 40px;
 }
+.card a{
+    color:white;
+    text-decoration-style: wavy;
+}
+.hidden{
+    display:none;
+}
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;
+}

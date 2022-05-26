@@ -2,8 +2,34 @@ function app(){
     $('body').attr('style','background-image: url(assets/img/body.jpg);');
 }
 function navWorks(){
+    let navController = 0;
     $('.navbar-brand').click(function(){
-        //$('main').hide();
+        navController++;
+        if(navController == 1){
+            $('.intro').hide();
+            $('.works').fadeIn(1000);
+            $('next').hide();
+            $('next').html('CONTACT');
+            $('next').fadeIn(1000);
+
+        }
+        if(navController == 2){
+            $('.works').hide();
+            $('.contact').fadeIn(1000);
+            $('next').hide();
+            $('next').html('HOME');
+            $('next').fadeIn(1000);
+
+        }
+        if(navController == 3){
+            $('.contact').hide();
+            $('.intro').fadeIn(1000);
+            $('next').hide();
+            $('next').html('WORKS');
+            $('next').fadeIn(1000);
+
+            navController = 0;
+        }
     });
 }
 function loadNav(){

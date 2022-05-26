@@ -1,11 +1,12 @@
 function app(){
-    $('body').attr('style','background-image: url(assets/img/body.jpg);');
+    $('body').attr('style','background-image: url(assets/img/intro.jpg);');
 }
 function navWorks(){
     let navController = 0;
     $('.navbar-brand').click(function(){
         navController++;
         if(navController == 1){
+            $('body').attr('style','background-image: url(assets/img/works.jpg);');
             $('.intro').hide();
             $('.works').fadeIn(1000);
             $('next').hide();
@@ -14,6 +15,7 @@ function navWorks(){
 
         }
         if(navController == 2){
+            $('body').attr('style','background-image: url(assets/img/contact.jpg);');
             $('.works').hide();
             $('.contact').fadeIn(1000);
             $('next').hide();
@@ -22,6 +24,7 @@ function navWorks(){
 
         }
         if(navController == 3){
+            $('body').attr('style','background-image: url(assets/img/intro.jpg);');
             $('.contact').hide();
             $('.intro').fadeIn(1000);
             $('next').hide();

@@ -1,5 +1,8 @@
 function app(){
     $('body').attr('style','background-image: url(assets/img/intro.jpg);');
+    $('.me').click(function(){
+        window.location.replace("cmd.html");
+    });
 }
 function navWorks(){
     let navController = 0;
@@ -56,3 +59,8 @@ $.ajax({
         app();
     }
 });
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('/sw.js')
+    .then(reg => console.log('service worker registered'))
+    .catch(err => console.log('service worker not registered', err));
+}
